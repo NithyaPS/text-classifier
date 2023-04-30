@@ -33,7 +33,7 @@ s = pickle.loads(saved_model)
 
 
 slt.header("News Categorizer")
-input=slt.text_input("Enter the text")
+input=slt.text_input("Enter the headline")
 
 inp=vector.transform([input]).toarray()
     
